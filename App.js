@@ -10,9 +10,10 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Home"
+          name="InstaCopyTextScreen"
           component={InstaCopyTextScreen}
           options={{
+            title: 'Счетчик символов для постов',
             headerStyle: {
               backgroundColor: '#fff',
               shadowColor: '#3d3d3d',
@@ -28,7 +29,6 @@ function App() {
             headerTitleStyle: {
               fontWeight: 'bold',
             },
-            title: 'Счетчик символов для постов',
           }}
         />
       </Stack.Navigator>
