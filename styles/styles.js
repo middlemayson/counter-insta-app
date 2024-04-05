@@ -3,15 +3,16 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         paddingTop: 16,
-      display: 'flex',
-      flexDirection: 'column',
-      backgroundColor: '#fff',
-      color: '#3b3b3d',
-      alignItems: 'flex-start',
-      justifyContent: 'space-between',
-      paddingHorizontal: 16,
-      width: '100%',
-      height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        backgroundColor: '#fff',
+        color: '#3b3b3d',
+        alignItems: 'flex-start',
+        justifyContent: 'space-between',
+        paddingHorizontal: 16,
+        width: '100%',
+        height: '100%',
+        gap: 8,
     },
     title: {
       textAlign: 'left',
@@ -90,7 +91,7 @@ const styles = StyleSheet.create({
     },
     picker: {
         width: '100%',
-        marginVertical: 16,
+        
         borderColor: '#d1d1d1',
         borderStyle: 'solid',
         borderWidth: 1,

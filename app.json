@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "counter-insta-app",
-    "slug": "counter-insta-app",
+    "name": "Счетчик символов для постов",
+    "slug": "counter-posts-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.middlemayson.counterpostsapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "415352eb-327a-41f4-9c0f-0be47387b53c"
+      }
     }
   }
 }
